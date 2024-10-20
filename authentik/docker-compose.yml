@@ -43,6 +43,7 @@ services:
     volumes:
       - ./media:/media
       - ./custom-templates:/templates
+      - ./user_settings.py:/data/user_settings.py
     env_file:
       - .env
     ports:
